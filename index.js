@@ -128,7 +128,7 @@ app.get('/api/user/grocery', (req, res) => {
 // Book multiple grocery items in a single order
 app.post('/api/user/order', (req, res) => {
   const { items } = req.body;
-  // Implement booking logic here
+  // we can apply any extra logic here according to client need
   res.json({ message: 'Order placed successfully', data: items });
 });
 
